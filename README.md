@@ -48,7 +48,7 @@ the name of the device with the following format:
 Example:
   Bus 002 Device 001: ID 1a2b:1a2b Device name
 
-Write down the the values in question, then issue the following
+Write down the values in question, then issue the following
 command so you can get the "Interface" number and "End Point"
 
     lsusb -vvv -d xxxx:xxxx | grep iInterface
